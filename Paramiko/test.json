@@ -1,0 +1,23 @@
+{
+  "switch_7028":
+  {
+    "ipaddr": "10.0.0.2",
+    "port": 22,
+    "usr": "admin",
+    "pswd": "admin"
+  },
+  "switch_6010":
+  {
+    "ipaddr": "10.0.0.5",
+    "port": 22,
+    "usr": "admin",
+    "pswd": "admin"
+  },
+  "switch_6012":
+  {
+    "ipaddr": "10.0.0.6",
+    "port": 22,
+    "usr": "admin",
+    "pswd": "admin"
+  }
+}

@@ -1,0 +1,510 @@
+Interface lo
+  Hardware Type:    Loopback
+  Description:
+  Flags:            <UP,LOOPBACK,RUNNING>
+  Admin Status:     UP
+  Operate Status:   UP
+  Index:            1
+  Metric:           1
+  MTU:              16436
+  IP Address:       127.0.0.1/8
+  inet6 ::1/128
+
+Interface vlan1
+  Hardware Type:    VLAN
+  MAC Address:      f8f7.d307.81a1
+  Description:
+  Flags:            <UP,BROADCAST,RUNNING,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   UP
+  Index:            6
+  Metric:           1
+  MTU:              1500
+  IP Address:       172.16.0.5/24
+  inet6 fe80::faf7:d3ff:fe07:81a1/64
+
+Interface vlan2
+  Hardware Type:    VLAN
+  MAC Address:      f8f7.d307.81a1
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            7
+  Metric:           1
+  MTU:              1500
+  IP Address:       20.0.0.2/24
+
+Interface ge1/1
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81a2
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2001
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Switchport Mode:  access
+  Default Vlan:     2
+
+Interface ge1/2
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81a3
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2002
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     2
+
+Interface ge1/3
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81a4
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2003
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     2
+
+Interface ge1/4
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81a5
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2004
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     2
+
+Interface ge1/5
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81a6
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2005
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     2
+
+Interface ge1/6
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81a7
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2006
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     2
+
+Interface ge1/7
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81a8
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2007
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     2
+
+Interface ge1/8
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81a9
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2008
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     2
+
+Interface ge1/9
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81aa
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2009
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/10
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81ab
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2010
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/11
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81ac
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2011
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/12
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81ad
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2012
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/13
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81ae
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2013
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/14
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81af
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2014
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/15
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b0
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2015
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/16
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b1
+  Description:
+  Flags:            <UP,BROADCAST,RUNNING,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   UP
+  Index:            2016
+  Metric:           1
+  MTU:              1500
+  Duplex:           full
+  Config Duplex:    AutoNego
+  Bandwidth:        1g
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/17
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b2
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2017
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/18
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b3
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2018
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/19
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b4
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2019
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/20
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b5
+  Description:
+  Flags:            <UP,BROADCAST,RUNNING,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   UP
+  Index:            2020
+  Metric:           1
+  MTU:              1500
+  Duplex:           full
+  Config Duplex:    AutoNego
+  Bandwidth:        1g
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/21
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b6
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2021
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/22
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b7
+  Description:
+  Flags:            <UP,BROADCAST,RUNNING,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   UP
+  Index:            2022
+  Metric:           1
+  MTU:              1500
+  Duplex:           full
+  Config Duplex:    AutoNego
+  Bandwidth:        1g
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/23
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b8
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2023
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface ge1/24
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81b9
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2024
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    AutoNego
+  Bandwidth:        ---
+  Config Bandwidth: AutoNego
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface xe1/25
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81bd
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2025
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    full
+  Bandwidth:        ---
+  Config Bandwidth: 10g
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface xe1/26
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81bb
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2026
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    full
+  Bandwidth:        ---
+  Config Bandwidth: 10g
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface xe1/27
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81bc
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2027
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    full
+  Bandwidth:        ---
+  Config Bandwidth: 10g
+  Switchport Mode:  access
+  Default Vlan:     1
+
+Interface xe1/28
+  Hardware Type:    Ethernet
+  MAC Address:      f8f7.d307.81ba
+  Description:
+  Flags:            <UP,BROADCAST,MULTICAST>
+  Admin Status:     UP
+  Operate Status:   DOWN
+  Index:            2028
+  Metric:           1
+  MTU:              1500
+  Duplex:           ---
+  Config Duplex:    full
+  Bandwidth:        ---
+  Config Bandwidth: 10g
+  Switchport Mode:  access
+  Default Vlan:     1

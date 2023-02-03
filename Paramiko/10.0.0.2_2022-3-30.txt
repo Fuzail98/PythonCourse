@@ -1,0 +1,102 @@
+!
+username admin password admin privilege
+!
+vlan database
+ vlan 20
+ vlan 30
+!
+spanning-tree mst configuration
+!
+ip interface vlan 20
+ip interface vlan 30
+!
+interface vlan1
+ ip address 10.0.0.2/24
+!
+interface vlan20
+ ip address 172.16.0.1/24
+!
+interface vlan30
+ ip address 192.168.10.95/24
+!
+interface ge1/1
+!
+interface ge1/2
+!
+interface ge1/3
+!
+interface ge1/4
+!
+interface ge1/5
+!
+interface ge1/6
+!
+interface ge1/7
+!
+interface ge1/8
+!
+interface ge1/9
+ switchport access vlan 20
+!
+interface ge1/10
+ switchport access vlan 20
+!
+interface ge1/11
+ switchport access vlan 20
+!
+interface ge1/12
+ switchport access vlan 20
+!
+interface ge1/13
+ switchport access vlan 20
+!
+interface ge1/14
+ switchport access vlan 20
+ switchport port-security protect
+!
+interface ge1/15
+ switchport access vlan 20
+!
+interface ge1/16
+ switchport access vlan 20
+!
+interface ge1/17
+ switchport access vlan 30
+!
+interface ge1/18
+ switchport access vlan 30
+!
+interface ge1/19
+ switchport access vlan 30
+!
+interface ge1/20
+ switchport access vlan 30
+!
+interface ge1/21
+ switchport access vlan 30
+!
+interface ge1/22
+ switchport access vlan 30
+!
+interface ge1/23
+ switchport access vlan 30
+!
+interface ge1/24
+ switchport access vlan 30
+!
+interface xe1/25
+!
+interface xe1/26
+!
+interface xe1/27
+!
+interface xe1/28
+!
+ip route 0.0.0.0/0 10.0.0.1
+!
+line vty
+!
+snmp community sw6012 rw
+snmp trap ICCN_proxy host 10.0.0.1 version 2c
+!
+end

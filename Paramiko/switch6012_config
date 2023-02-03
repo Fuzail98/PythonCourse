@@ -1,0 +1,61 @@
+!
+username admin password admin privilege
+!
+vlan database
+ vlan 3
+!
+spanning-tree mst configuration
+!
+ip interface vlan 3
+!
+interface vlan1
+ ip address 192.168.0.1/24
+!
+interface vlan3
+ ip address 10.0.0.3/24
+!
+interface ge1/1
+ switchport access vlan 3
+!
+interface ge1/2
+ switchport access vlan 3
+!
+interface ge1/3
+ switchport access vlan 3
+!
+interface ge1/4
+ switchport access vlan 3
+!
+interface ge1/5
+ switchport access vlan 3
+!
+interface ge1/6
+ switchport access vlan 3
+!
+interface ge1/7
+ switchport access vlan 3
+!
+interface ge1/8
+ switchport access vlan 3
+!
+interface ge1/9
+!
+interface ge1/10
+!
+interface ge1/11
+!
+interface ge1/12
+!
+line vty
+!
+end
+
+Switch#write
+Building configuration...
+[OK]st 10.0.0.1 version 2c
+snmp trap Switch7028 host 10.0.0.2 version 2c
+!
+end
+tch7028 host 10.0.0.2 version 2c
+!
+end

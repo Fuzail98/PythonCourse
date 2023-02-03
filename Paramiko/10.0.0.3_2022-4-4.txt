@@ -1,0 +1,318 @@
+!
+username admin password admin privilege
+!
+vlan database
+ vlan 3
+!
+spanning-tree mst configuration
+!
+ndp global enable
+ntdp global enable
+!
+ip interface vlan 3
+!
+interface vlan1
+ ip address 192.168.0.100/24
+!
+interface vlan3
+ ip address 10.0.0.3/24
+!
+interface ge1/1
+!
+interface ge1/2
+!
+interface ge1/3
+!
+interface ge1/4
+!
+interface ge1/5
+!
+interface ge1/6
+ switchport access vlan 3
+!
+interface ge1/7
+ switchport access vlan 3
+!
+interface ge1/8
+ switchport access vlan 3
+!
+interface ge1/9
+!
+interface ge1/10
+!
+interface ge1/11
+!
+interface ge1/12
+!
+line vty
+!
+snmp community sw6012 ro
+snmp trap ICCNGateway host 10.0.0.1 version 2c
+snmp trap Switch7028 host 10.0.0.2 version 2c
+!
+end
+!
+username admin password admin privilege
+!
+vlan database
+ vlan 3
+!
+spanning-tree mst configuration
+!
+ndp global enable
+ntdp global enable
+!
+ip interface vlan 3
+!
+interface vlan1
+ ip address 192.168.0.100/24
+!
+interface vlan3
+ ip address 10.0.0.3/24
+!
+interface ge1/1
+!
+interface ge1/2
+!
+interface ge1/3
+!
+interface ge1/4
+!
+interface ge1/5
+!
+interface ge1/6
+ switchport access vlan 3
+!
+interface ge1/7
+ switchport access vlan 3
+!
+interface ge1/8
+ switchport access vlan 3
+!
+interface ge1/9
+!
+interface ge1/10
+!
+interface ge1/11
+!
+interface ge1/12
+!
+line vty
+!
+snmp community sw6012 ro
+snmp trap ICCNGateway host 10.0.0.1 version 2c
+snmp trap Switch7028 host 10.0.0.2 version 2c
+!
+end
+!
+username admin password admin privilege
+!
+vlan database
+ vlan 3
+!
+spanning-tree mst configuration
+!
+ndp global enable
+ntdp global enable
+!
+ip interface vlan 3
+!
+interface vlan1
+ ip address 192.168.0.100/24
+!
+interface vlan3
+ ip address 10.0.0.3/24
+!
+interface ge1/1
+!
+interface ge1/2
+!
+interface ge1/3
+!
+interface ge1/4
+!
+interface ge1/5
+!
+interface ge1/6
+ switchport access vlan 3
+!
+interface ge1/7
+ switchport access vlan 3
+!
+interface ge1/8
+ switchport access vlan 3
+!
+interface ge1/9
+!
+interface ge1/10
+!
+interface ge1/11
+!
+interface ge1/12
+!
+line vty
+!
+snmp community sw6012 ro
+snmp trap ICCNGateway host 10.0.0.1 version 2c
+snmp trap Switch7028 host 10.0.0.2 version 2c
+!
+end
+!
+username admin password admin privilege
+!
+vlan database
+ vlan 3
+!
+spanning-tree mst configuration
+!
+ndp global enable
+ntdp global enable
+!
+ip interface vlan 3
+!
+interface vlan1
+ ip address 192.168.0.100/24
+!
+interface vlan3
+ ip address 10.0.0.3/24
+!
+interface ge1/1
+!
+interface ge1/2
+!
+interface ge1/3
+!
+interface ge1/4
+!
+interface ge1/5
+!
+interface ge1/6
+ switchport access vlan 3
+!
+interface ge1/7
+ switchport access vlan 3
+!
+interface ge1/8
+ switchport access vlan 3
+!
+interface ge1/9
+!
+interface ge1/10
+!
+interface ge1/11
+!
+interface ge1/12
+!
+line vty
+!
+snmp community sw6012 ro
+snmp trap ICCNGateway host 10.0.0.1 version 2c
+snmp trap Switch7028 host 10.0.0.2 version 2c
+!
+end
+!
+username admin password admin privilege
+!
+vlan database
+ vlan 3
+!
+spanning-tree mst configuration
+!
+ndp global enable
+ntdp global enable
+!
+ip interface vlan 3
+!
+interface vlan1
+ ip address 192.168.0.100/24
+!
+interface vlan3
+ ip address 10.0.0.3/24
+!
+interface ge1/1
+!
+interface ge1/2
+!
+interface ge1/3
+!
+interface ge1/4
+!
+interface ge1/5
+!
+interface ge1/6
+ switchport access vlan 3
+!
+interface ge1/7
+ switchport access vlan 3
+!
+interface ge1/8
+ switchport access vlan 3
+!
+interface ge1/9
+!
+interface ge1/10
+!
+interface ge1/11
+!
+interface ge1/12
+!
+line vty
+!
+snmp community sw6012 ro
+snmp trap ICCNGateway host 10.0.0.1 version 2c
+snmp trap Switch7028 host 10.0.0.2 version 2c
+!
+end
+!
+username admin password admin privilege
+!
+vlan database
+ vlan 3
+!
+spanning-tree mst configuration
+!
+ndp global enable
+ntdp global enable
+!
+ip interface vlan 3
+!
+interface vlan1
+ ip address 192.168.0.100/24
+!
+interface vlan3
+ ip address 10.0.0.3/24
+!
+interface ge1/1
+!
+interface ge1/2
+!
+interface ge1/3
+!
+interface ge1/4
+!
+interface ge1/5
+!
+interface ge1/6
+ switchport access vlan 3
+!
+interface ge1/7
+ switchport access vlan 3
+!
+interface ge1/8
+ switchport access vlan 3
+!
+interface ge1/9
+!
+interface ge1/10
+!
+interface ge1/11
+!
+interface ge1/12
+!
+line vty
+!
+snmp community sw6012 ro
+snmp trap ICCNGateway host 10.0.0.1 version 2c
+snmp trap Switch7028 host 10.0.0.2 version 2c
+!
+end
