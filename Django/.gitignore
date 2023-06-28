@@ -1,5 +1,6 @@
 django_project1_env/
 __pycache__/
 db.sqlite3
+*.jpeg
 test.py
 Web_capture*
