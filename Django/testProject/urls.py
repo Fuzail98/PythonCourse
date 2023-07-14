@@ -19,9 +19,12 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 
-from . import views
+from .views import home, contacts, about
+from pages.views import home_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home),
+    path('', home_view),
+    path('contacts/', contacts),
+    path('about/', about)
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
